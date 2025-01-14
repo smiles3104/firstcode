@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+/* Navbar */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+    margin-right: 70px;
+}
+
+.navbar ul li a:hover {
+    color: #f39c12;
+}
+.navbar hover{
+    color:#f4acb7;
+    }
+/* Header */
+.header {
+    background-color:#B1A7A6;
+    text-align: center;
+    padding: 50px 20px;
+    border-bottom: 2px solid #ddd;
+    
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color:#660708;
+    text-decoration:underline;
+    font-family:champange;
+}
+
+.header p {
+    color: #333;
+    font-size: 20px;
+    font-weight: 100;
+}
+/* Body */
+.body {
+    background-color:#f7cad0;
+   
+    padding: 20px;
+    
+    margin: auto;
+}
+.body h2 {
+    color: #F5F3F4;
+    
+     text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.contentbox {
+height: 300px;
+width: 600px;
+
+display:inline-block;
+text-align: center;
+font-family: cursive;
+
+
+}
+.imageAlign {
+    height: 300px;
+    margin-top:  10px;
+    margin-top: 0;
+    
+}
+.booklinks{
+    
+    text-decoration: none;
+    color:#a4133c;
+    font-size: 25px;
+    transition-property: all;
+    transition-duration: 1s;
+    
+}
+.booklinks:hover{
+    color:black;
+    font-size: 30px;
+}
+h3{
+    text-align: center;
+    color: #85182a;
+}
+
+.farewell {
+     text-align:center;
+
+}
+/* Footer Styles */
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.footer-socials {
+    margin-top: 10px;
+}
+
+.footer-link {
+    color: #ffa500;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+    color: #ff7700;
+}
+
